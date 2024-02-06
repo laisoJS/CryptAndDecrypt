@@ -1,6 +1,6 @@
 # CryptAndDecrypt
 
-This repository contains a Python script for AES 256 encryption and decryption using the pycryptodome library.
+This repository contains a Python script for AES 256 encryption and decryption using the pycryptodomex library.
 
 ## Description
 
@@ -8,25 +8,25 @@ The script provides two main functions: `encrypt` and `decrypt`. The `encrypt` f
 
 ## Installation
 
-To run this script, you need to have Python installed on your machine along with the pycryptodome library. You can install it using pip:
+To run this script, you need to have Python installed on your machine along with the pycryptodomex library. You can install it using pip:
 
 ```bash
-pip install pycryptodome
+pip install pycryptodomex
 ```
 
 ## Usage
 
 Run the script in your terminal. You will be presented with a menu to choose from:
 
+0. Quit
 1. Encrypt information
 2. Decrypt information
-3. Quit
 
 Enter your choice, and follow the prompts.
 
 ## Example
 
-```python
+```bash
 python main.py
 ```
 

@@ -49,16 +49,16 @@ def decrypt(enc_dict, password):
 def menu():
     print("MENU: chiffre l'info dechiffrer l'info quitter")
     print("======================================")
+    print("0) quitter")
     print("1) chiffrer l'info ")
     print("2) dechiffrer l'info")
-    print("3) quitter")
     choix = input("Votre choix : ")
     return choix
 
 def main():
     while True:
         choix = menu()
-        if choix == "3":
+        if choix == "0":
             print("Au revoir!")
             break
         password = input("Mot de passe : ")
