@@ -1,6 +1,3 @@
-Sure, here's a draft for your README.md file:
-
-```markdown
 # CryptAndDecrypt
 
 This repository contains a Python script for AES 256 encryption and decryption using the pycryptodome library.
@@ -40,6 +37,3 @@ This project is licensed under the Unlicense. This means the software is free an
 ## Acknowledgments
 
 This script is based on the tutorial from [HackerNoon](https://hackernoon.com/how-to-use-aes-256-cipher-python-cryptography-examples-6tbh37cr).
-```
-
-Please modify it as needed to fit your project's specifics.
