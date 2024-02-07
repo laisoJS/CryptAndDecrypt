@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # AES 256 encryption/decryption using pycryptodome library
 
 from base64 import b64encode, b64decode
