@@ -4,7 +4,9 @@ This repository contains a Python script for AES 256 encryption and decryption u
 
 ## Description
 
-The script provides two main functions: `encrypt` and `decrypt`. The `encrypt` function takes a plain text and a password, and returns a dictionary with the encrypted text. The `decrypt` function takes an encrypted dictionary and a password, and returns the decrypted text.
+The script provides two main functions: `encrypt` and `decrypt`. 
+The `encrypt` function takes a plain text and a password, and returns a dictionary with the encrypted text. 
+The `decrypt` function takes an encrypted dictionary and a password, and returns the decrypted text.
 
 ## Installation
 
@@ -26,13 +28,20 @@ Enter your choice, and follow the prompts.
 
 ## Example
 
+On windows
 ```bash
 python main.py
+```
+on Linux
+```bash
+chmod +x main.py
+./main.py
 ```
 
 ## License
 
-This project is licensed under the Unlicense. This means the software is free and unencumbered software released into the public domain.
+This project is licensed under the Unlicense.
+This means the software is free and unencumbered software released into the public domain.
 
 ## Acknowledgments
 
